@@ -16,7 +16,7 @@ describe('Wikipedia functionality', () => {
     cy.get('div').contains('Welcome to Wikipedia')
   })
 
-  // // CHALLENGE 2: ensure the "Today's featured picture" section actually contains a picture
+  // CHALLENGE 2: ensure the "Today's featured picture" section actually contains a picture
   it('Today\'s featured picture contains a picture', () => {
     cy.get('div#mp-bottom').find('img')
   }) 
@@ -34,24 +34,24 @@ describe('Wikipedia functionality', () => {
     })
   })
 
-  // // CHALLENGE 4: ensure unsuccessful login attempt scenarios are handled correctly
+  // CHALLENGE 4: ensure unsuccessful login attempt scenarios are handled correctly
   it('Handle unsuccessful login attempts', () => {
-    // TODO: solution to go here
+  // TODO: solution to go here
   })
 
   // CHALLENGE 5: ensure you can log in with provided credientials successfully
   it('Log successfully', () => {
-    // TODO: solution to go here
+  // TODO: solution to go here
   })
 
   // CHALLENGE 6: ensure you can successfully search for 'Bill Murray' in the search bar and the correct information is returned
   it('Successful Bill Murray search', () => {
-    // TODO: solution to go here
+  // TODO: solution to go here
   })
   
   // CHALLENGE 7: make the login steps required for challenge 4 reusable by writing them as a Cypress command (support/commands.js)
   //              use this new command in your solution for CHALLENGE 5
   
-  // CHALLENGE 8: Improve the after hook so that the 'logout' button is only clicked if it actually exists 
+  // CHALLENGE 8: improve the after hook so that the 'logout' button is only clicked if it actually exists 
   //              (so we only try to click the button if Cyress is logged in)
 })
