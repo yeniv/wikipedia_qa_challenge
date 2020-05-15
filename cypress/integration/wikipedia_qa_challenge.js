@@ -34,12 +34,12 @@ describe('Wikipedia functionality', () => {
     })
   })
 
-  // // CHALLENGE 4: Test unsuccessful login attempt scenarios
+  // // CHALLENGE 4: ensure unsuccessful login attempt scenarios are handled correctly
   it('Handle unsuccessful login attempts', () => {
     // TODO: solution to go here
   })
 
-  // CHALLENGE 5: ensure you can log in with provided credientials 
+  // CHALLENGE 5: ensure you can log in with provided credientials successfully
   it('Log successfully', () => {
     // TODO: solution to go here
   })
